@@ -1,26 +1,31 @@
-# {PROJECT NAME}
-## NHS England Digitial Analytics and Research Team - PhD Internship Project
+# GPPS - Characterisation and Segmentation of online (health) service users
+## NHS England Analytical Insights
 
 ### About the Project
 
 [![status: experimental](https://github.com/GIScience/badges/raw/master/status/experimental.svg)](https://github.com/GIScience/badges#experimental)
 
-This repository holds code for the {PROJECT NAME} {SHORT DESCRIPTION}
+This repository holds code for the project on the Characterisation and segmentation of online (health) servie users.
+Research project using the GP Patient Survey (GPPS) 2021 row-level data to support NHSE evidence-based decision-making and strategy on Customer Experience and Digital Inclusion.
 
-[Link to original project propsoal](https://nhsx.github.io/nhsx-internship-projects/)
+Questions to be answered:
+- Who uses (GP) online services*? Which groups may be excluded?
+- How do characteristics like a) sociodemographics ; b) clinical characteristics; c) local area internet speed, internet user profile and enablement; affect use* ?
+Which are more prominent?
+- Can we create clusters or pen portraits based on types of online health service users*?
 
 _**Note:** Only public or fake data are shared in this repository._
 
 ### Project Stucture
 
 - The main code is found in the root of the repository (see Usage below for more information)
-- The accompanying [report](./reports/report.pdf) is also available in the `reports` folder
 - More information about the code usage can be found in the [model card](./model_card.md)
 - {OTHER REPO STRUCTURE}
 
 ### Built With
 
-[![Python v3.8](https://img.shields.io/badge/python-v3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
+R
+
 - {LIST OF MAIN PACKAGE VERSIONS}
 
 ### Getting Started
@@ -34,24 +39,22 @@ To clone the repo:
 `git clone https://github.com/nhsx/{REPO NAME}`
 
 To create a suitable environment:
-- ```python -m venv _env```
-- `source _env/bin/activate`
-- `pip install -r requirements.txt`
-
-{ADDITIONAL TECHNICAL SUPPORT AND NEEDS} 
+- Open or create an R project in the root folder.
 
 ### Usage
-{DESCRIPTION OF CODE}
+- Repo in construction. Codebase to be added.
 
 #### Outputs
-{LIST AND DESCRIPTION OF OUTPUTS}
+- Stakeholder deck with insights and avenues for further use of techniques in research.
+- HACA 2023 conference presentation, available [here](https://youtu.be/mt8LpvVPfUc?si=7mvbf8kBxyhtj_4e) .
 
 {NOTES ON REPRODUCIBILITY OF RESULTS}
 
 #### Datasets
-{DESCRIPTION AND LINKS TO DATASETS}
+- GP Patient Survey 2021, selected questions. More information on the survey is available [here](https://www.gp-patient.co.uk/surveysandreports2021). Aggregate information is available online but this work required access to the respondent-level information through an internal data access request.
+- CDRC Internet User Classification. Dataset available [here](https://data.cdrc.ac.uk/dataset/internet-user-classification).
 
-{LINK TO FAKE DATA TO SUPPORT INITAIL CODE RUNS}
+- We aim to in due course share a dummy data version against which the code could be run (though insights themselves will not be obtained given the expected random and non-multivariately correlated nature of this dummy dataset).
 
 ### Roadmap
 
@@ -85,7 +88,7 @@ of the [Open Government 3.0][ogl] licence.
 
 ### Contact
 
-To find out more about the [Digitial Analytics and Research Team](https://www.nhsx.nhs.uk/key-tools-and-info/nhsx-analytics-unit/) visit our [project website](https://nhsx.github.io/AnalyticsUnit/projects.html) or get in touch at [analytics-unit@nhsx.nhs.uk](mailto:analytics-unit@nhsx.nhs.uk).
+To find out more about the [Digitial Analytics and Research Team](https://www.nhsx.nhs.uk/key-tools-and-info/nhsx-analytics-unit/) visit our [project website](https://nhsx.github.io/AnalyticsUnit/projects.html) or get in touch at [datascience@nhs.net](mailto:datascience@nhs.net).
 
 <!-- ### Acknowledgements -->
 
