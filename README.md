@@ -51,10 +51,11 @@ To create a suitable environment:
 {NOTES ON REPRODUCIBILITY OF RESULTS}
 
 #### Datasets
-- GP Patient Survey 2021, selected questions. More information on the survey is available [here](https://www.gp-patient.co.uk/surveysandreports2021). Aggregate information is available online but this work required access to the respondent-level information through an internal data access request.
+- GP Patient Survey (GPPS) 2021, selected questions. More information on the survey is available [here](https://www.gp-patient.co.uk/surveysandreports2021). Aggregate information is available online but this work required access to the respondent-level information through an internal data access request and IG clearance.
 - CDRC Internet User Classification. Dataset available [here](https://data.cdrc.ac.uk/dataset/internet-user-classification).
+- POMI (Patient Online Management Information). Dataset available [here](https://digital.nhs.uk/data-and-information/publications/statistical/mi-patient-online-pomi/current).
 
-- We aim to in due course share a dummy data version against which the code could be run (though insights themselves will not be obtained given the expected random and non-multivariately correlated nature of this dummy dataset).
+- We aim to in due course share a dummy data version for the core GPPS data, against which the code could be run (though insights themselves will not be obtained or reproduced given the expected random and non-multivariately correlated nature of this dummy dataset).
 
 ### Roadmap
 
