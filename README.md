@@ -18,7 +18,7 @@ _**Note:** Only public or fake data are shared in this repository._
 
 ### Project Stucture
 
-- The main code is found in the root of the repository (see Usage below for more information)
+- The main code is found iin folder [src](./src/) (see Usage below for more information)
 - More information about the code usage can be found in the [model card](./model_card.md)
 - {OTHER REPO STRUCTURE}
 
